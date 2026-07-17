@@ -1,0 +1,15 @@
+CSS
+
+¿Qué es CSS?
+CSS por sus siglas en ingles dignifica Cascading style Sheets, es decir, hojas de estilos en cascada
+
+Es considerado un lenguaje de diseño grafico y es usado en conjunto con algún lenguaje de maquetado
+
+
+Sintaxis de CSS
+
+Selectores: Con ellos podemos especificar a qué elementos de una dertermida página nos eamos refireindo
+
+Propiedades: están representadas por palabras reservadas que se utilizan para brindar direfentes tipos de estilos
+
+valores: por cada propiedad, existe un valor
