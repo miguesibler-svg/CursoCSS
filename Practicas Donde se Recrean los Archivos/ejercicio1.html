@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ejercici1.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Cafetería Aroma</h1>
+        <p>El mejor lugar para disgrutar un <strong>café</strong> , <i>postres</i> y un ambinete <b>agradable</b></p>
+        <nav>
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#precio">Precios</a></li>
+                <li><a href="#reservacion">Reservaciones</a></li>
+            </ul>
+        </nav><br>
+    </header>
+
+    <section>
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos una cafetería dedicada a ofrecer bebidas de calidad y un ambiente cómodo para nuestros visitantes.</p>
+        <p>Nuestro compromiso es brindar productos frescos y atención amable.</p>
+        <img src="img/img.jpg" alt="css">
+    </section>
+    <hr>
+    <section>
+        <h2>Menú</h2>
+        <article>
+            <h3>Bebidas</h3>
+            <ul>
+                <li>Café Americano</li>
+                <li>Capuchino</li>
+                <li>Chocolate Caliente</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Postres</h3>
+            <ol>
+                <li>Pasteles de Chocolate</li>
+                <li>Cheesecake</li>
+                <li>Galleta</li>
+            </ol>
+        </article>
+
+        <article>
+            <h3>Ingredientes principales</h3>
+            <dl>
+                <dt>Café</dt>
+                <dd>Grano Seleccionado</dd>
+
+                <dt>Leche</dt>
+                <dd>Leche fresca</dd>
+
+                <dt>Chocolate</dt>
+                <dd>Chocolate Semiamargo</dd>
+            </dl>
+        </article>
+    </section>
+    <hr>
+
+    <section>
+        <h2>Multimedia</h2>
+        <article>
+            <h5>Video de Presentacion</h5>
+            <video src="video/video.mp4" controls></video>
+        </article>
+
+        <article>
+            <h6>Música ambiental</h6>
+            <audio src="audio/audio.mp3" controls></audio>
+        </article>
+    </section>
+    <hr>
+
+    <section>
+        <table border="1">
+            <caption>Productos disponibles</caption>
+                <tr>
+                    <th rowspan="2">Productos</th>
+                    <th colspan="2">Precios</th>
+                </tr>
+                <tr>
+                    <th>Pequeño</th>
+                    <th>Grande</th>
+                </tr>
+                <tr>
+                    <td>Café</td>
+                    <td>$35</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Chocolate</td>
+                    <td>$40</td>
+                    <td>$55</td>
+                </tr>
+         </table>
+        </table>
+    </section>
+    <hr>
+
+    <section>
+        <h2>Reservacion</h2>
+        <form >
+            <fieldset>
+                <legend>Informacion del Cliente</legend>
+                <p>
+                    <label for="nombre">Nombre: <input type="text" id="nombre" name="nombre"> </label><br><br>
+                    <label for="edad">Edad: <input type="number" id="edad" name="edad"> </label><br><br>
+                    <label for="correo">Correo: <input type="email" id="correo" name="correo"> </label><br><br>
+                    <label for="contrasena">Contraseña: <input type="password" id="contrasena" name="contrasena"> </label><br><br>
+                    <label for="fecha">Fecha de Visita <input type="date" id="fecha" name="fecha"> </label><br><br>
+                    <label for="comprobante">Comprobante <input type="file" id="comprobante" name="comprobante"> </label><br><br>
+                </p>
+
+                <p>
+                    <label for="promocion"><input type="checkbox" id="promocion" name="promocion"> Deseo recibir promociones </label><br>
+                </p>
+                
+                <div>
+                    <label for="horario">Horario preferido</label><br>
+                    <label for="manana"><input type="radio" name="preferido" id="manana" value="mañana"> mañana</label><br>
+                    <label for="tarde"><input type="radio" name="preferido" id="tarde" value="tarde">Tarde</label><br><br>
+                </div>
+
+                <div>
+                    <label for="comentario"> Comentarios </label><br>
+                    <textarea id="comentario" readonly>Este espacio es solo d lectura</textarea><br>
+                </div>
+
+                <div>
+                    <label for="bebidas">Bebidas favoritas</label><br>
+                    <select name="bebida" size="4" multiple>
+                        <optgroup label="Cafés">
+                            <option>Americano</option>
+                            <option>Capuchino</option>
+                            <option>Latte</option>
+                        </optgroup>
+                        <optgroup label="Frías">
+                            <option>Frappé</option>
+                            <option>Té Helado</option>
+                        </optgroup>
+                    </select>
+                </div><br>
+
+                <button type="submit">Enviar reservacion</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Informacion adicional</h2>
+        <p>horario: <span>Lunes a Domingos</span></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Cafetería Aroma.</p>
+        <a href="https:www.google.com">Aviso de privacidad</a>
+    </footer>
+
+</body>
+</html>

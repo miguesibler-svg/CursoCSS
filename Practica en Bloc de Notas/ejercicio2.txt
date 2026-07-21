@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<HTML lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ejercicio2</title>
+	<link rel="stylesheet" href="css/ejercicio2.html"
+</head>
+<body>
+	<h1>Bienvenidos a Sibler</h1>
+	<p>Este es un canal para aprender de la vida de un informático</p>
+
+	<h2>¿Quién soy ?<h2>
+	<p>Soy un Ing. En Gestión y Desarrollo de software</p>
+
+	<ul>
+		<li> SQL </li>
+		<li> HTML </li>
+		<li> CSS </li>
+		<li> JavaScript </li>
+	<ul>
+</body>
+</html>

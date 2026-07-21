@@ -1,0 +1,66 @@
+header{
+    background-color:burlywood;
+}
+
+nav{
+    background-color:antiquewhite;
+}
+
+h2{
+    color:peru;
+}
+
+strong{
+    color:peru;
+}
+
+i{
+    color:peru;
+}
+
+h2{
+    color:peru;
+}
+
+h3{
+    color:peru;
+}
+
+h4{
+    color:peru;
+}
+
+h5{
+    color:peru;
+}
+
+h6{
+    color:peru
+}
+
+th{
+    background-color: burlywood;
+}
+
+button{
+    background-color:coral ;
+}
+
+span{
+    color:chocolate;
+    font-size:large;
+}
+
+footer{
+    background-color:peru;
+}
+
+img{
+    width:300px;
+    height:300px;
+}
+
+video{
+    width:300px;
+    height:300px;
+}

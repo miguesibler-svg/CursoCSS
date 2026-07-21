@@ -1,0 +1,6 @@
+selectores en css
+
+Los selectores no permiten hacer referencia a elementos, clases o ids dentro de un documento html
+
+nos permiten cambiar de estilos, no solo a elemnentod de forma particular sino tambien a un bloque o conjunto de ellos.
+

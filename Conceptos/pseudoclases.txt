@@ -1,0 +1,7 @@
+¿Qué son las pseudoclases?
+
+Las Pseudoclases se utilizan para hacer reerencia a ciertos comportamientos de los elementos html
+
+se utilizan para dar estilos a elementos respecto al comportamiento que experimentan en determindao momento
+
+Las pseudoclases se definen añadiendo dos puntos antes de si misma. En el caso de existir selectores de etiqueta, id, clases, estas se escrivirían a su 

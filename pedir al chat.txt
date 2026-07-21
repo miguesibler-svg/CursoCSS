@@ -1,10 +1,128 @@
 dame un código html que contenga 
 
-
-
 header, nav, section, article, div, footer, h1, h2, h3, h4, h5, h6, p, strong, em, b, i, u, span, br, hr, a, img, video, audio, ol, ul, li, dl, dt, dd, table(colspan, rowspan), caption, tr, th, td, form, fieldset, legend, label, input(text, number, email, password, date, file, checkbox, radio), textarea(readonly), select(multiple), optgroup, option, button
 
+Qué contenga css y HTML es para practicar mi HTML y css admeas debe de ser nivel prinicpienate en css y sea realista  
+que no contenga ni js 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Qué no contenga css ni js es para practicar mi html  que sea difícil y sea realista  
+Genera un proyecto web básico compuesto por dos archivos separados:
+
+un HTML y un css
+
+El archivo html debe enlazar correctamente el archivo styles.css. No utilices JavaScript, bibliotecas externas ni frameworks.
+
+El objetivo es crear una página web realista, sencilla y bien organizada, pensada para que un estudiante de nivel principiante practique HTML y CSS.
+
+## Requisitos generales
+
+* Utiliza una estructura semántica correcta.
+* El código debe estar correctamente indentado y organizado.
+* El HTML y el CSS deben ser fáciles de leer y comprender.
+* El diseño debe ser simple, limpio y funcional.
+* El CSS debe ser exclusivamente de nivel principiante, utilizando únicamente propiedades básicas como:
+
+  * color
+  * background-color
+  * font-family
+  * font-size
+  * text-align
+  * width
+  * height
+  * margin
+  * padding
+  * border
+  * border-radius
+  * display
+* No utilices Flexbox, CSS Grid, `position`, animaciones, transiciones, variables CSS ni técnicas avanzadas.
+
+## El archivo html debe incluir las siguientes etiquetas
+
+### Estructura semántica
+
+* header
+* nav
+* section
+* article
+* div
+* footer
+
+### Encabezados y texto
+
+* h1
+* h2
+* h3
+* h4
+* h5
+* h6
+* p
+* strong
+* em
+* b
+* i
+* u
+* span
+* br
+* hr
+
+### Enlaces y contenido multimedia
+
+* a
+* img
+* video
+* audio
+
+### Listas
+
+* ol
+* ul
+* li
+* dl
+* dt
+* dd
+
+### Tablas
+
+La tabla debe contener:
+
+* table
+* caption
+* tr
+* th
+* td
+* debe de utilizar colspan.
+* debe de utilizar rowspan.
+
+### Formularios
+
+El formulario debe incluir:
+
+* form
+* fieldset
+* legend
+* label
+* input de tipo:
+
+  * text
+  * number
+  * email
+  * password
+  * date
+  * file
+  * checkbox
+  * radio
+* textarea con el atributo readonly.
+* select con el atributo multiple.
+* optgroup
+* option
+* button
+
+## Tema de la página
+
+Selecciona un tema realista (por ejemplo, una cafetería, una biblioteca, una tienda de mascotas, un restaurante, una papelería o un gimnasio). Todo el contenido debe estar relacionado con ese tema para que el sitio tenga coherencia.
+
+## Objetivo
+
+El resultado debe ser un proyecto completo formado únicamente por un archivo html y css, donde se utilicen correctamente todas las etiquetas solicitadas y un CSS básico. El código debe ser claro, ordenado y fácil de entender para una persona que está aprendiendo HTML y CSS desde cero.
 

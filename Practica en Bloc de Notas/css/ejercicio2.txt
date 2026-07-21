@@ -1,0 +1,17 @@
+h1{ 
+	color: green;
+	font-family: arial
+}
+
+p{
+	color: Pink;
+}
+
+h2{ 
+	color: purpure
+}
+
+li{
+	color: blue;
+	font-family: arial;
+}

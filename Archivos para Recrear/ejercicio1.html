@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Aroma</title>
+
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="css/ejercicio1.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Cafetería Aroma</h1>
+
+        <p>
+            El mejor lugar para disfrutar un
+            <strong>café</strong>,
+            <em>postres</em> y un ambiente
+            <b>agradable</b>.
+        </p>
+
+        <nav>
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#tabla">Precios</a></li>
+                <li><a href="#formulario">Reservación</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+    </header>
+
+    <section id="nosotros">
+
+        <article>
+
+            <h2>¿Quiénes somos?</h2>
+
+            <p>
+                Somos una cafetería dedicada a ofrecer bebidas de calidad y un ambiente
+                <span>cómodo</span> para nuestros visitantes.
+            </p>
+
+            <p>
+                Nuestro compromiso es brindar productos <u>frescos</u> y atención
+                <i>amable</i>.
+            </p>
+
+            <img src="https://via.placeholder.com/500x250" alt="Imagen de una cafetería">
+
+        </article>
+
+    </section>
+
+    <hr>
+
+    <section id="menu">
+
+        <article>
+
+            <h2>Menú</h2>
+
+            <h3>Bebidas</h3>
+
+            <ul>
+                <li>Café Americano</li>
+                <li>Capuchino</li>
+                <li>Chocolate Caliente</li>
+            </ul>
+
+            <h3>Postres</h3>
+
+            <ol>
+                <li>Pastel de Chocolate</li>
+                <li>Cheesecake</li>
+                <li>Galletas</li>
+            </ol>
+
+            <h4>Ingredientes principales</h4>
+
+            <dl>
+                <dt>Café</dt>
+                <dd>Granos seleccionados.</dd>
+
+                <dt>Leche</dt>
+                <dd>Leche fresca.</dd>
+
+                <dt>Chocolate</dt>
+                <dd>Chocolate semiamargo.</dd>
+            </dl>
+
+        </article>
+
+    </section>
+
+    <hr>
+
+    <section>
+
+        <article>
+
+            <h2>Multimedia</h2>
+
+            <h5>Video de presentación</h5>
+
+            <video controls width="400">
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+
+            <br><br>
+
+            <h6>Música ambiental</h6>
+
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio.
+            </audio>
+
+        </article>
+
+    </section>
+
+    <hr>
+
+    <section id="tabla">
+
+        <article>
+
+            <h2>Tabla de precios</h2>
+
+            <table border="1">
+
+                <caption>Productos disponibles</caption>
+
+                <tr>
+                    <th rowspan="2">Producto</th>
+                    <th colspan="2">Precio</th>
+                </tr>
+
+                <tr>
+                    <th>Pequeño</th>
+                    <th>Grande</th>
+                </tr>
+
+                <tr>
+                    <td>Café</td>
+                    <td>$35</td>
+                    <td>$50</td>
+                </tr>
+
+                <tr>
+                    <td>Chocolate</td>
+                    <td>$40</td>
+                    <td>$55</td>
+                </tr>
+
+            </table>
+
+        </article>
+
+    </section>
+
+    <hr>
+
+    <section id="formulario">
+
+        <article>
+
+            <h2>Reservación</h2>
+
+            <form>
+
+                <fieldset>
+
+                    <legend>Información del cliente</legend>
+
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre">
+
+                    <br><br>
+
+                    <label for="edad">Edad:</label><br>
+                    <input type="number" id="edad" name="edad">
+
+                    <br><br>
+
+                    <label for="correo">Correo:</label><br>
+                    <input type="email" id="correo" name="correo">
+
+                    <br><br>
+
+                    <label for="clave">Contraseña:</label><br>
+                    <input type="password" id="clave" name="clave">
+
+                    <br><br>
+
+                    <label for="fecha">Fecha de visita:</label><br>
+                    <input type="date" id="fecha" name="fecha">
+
+                    <br><br>
+
+                    <label for="archivo">Comprobante:</label><br>
+                    <input type="file" id="archivo" name="archivo">
+
+                    <br><br>
+
+                    <label>
+                        <input type="checkbox" name="promociones">
+                        Deseo recibir promociones.
+                    </label>
+
+                    <br><br>
+
+                    <p>Horario preferido:</p>
+
+                    <label>
+                        <input type="radio" name="horario">
+                        Mañana
+                    </label>
+
+                    <label>
+                        <input type="radio" name="horario">
+                        Tarde
+                    </label>
+
+                    <br><br>
+
+                    <label for="comentarios">Comentarios:</label><br>
+
+                    <textarea id="comentarios" rows="5" cols="40" readonly>
+Este espacio es solo de lectura.
+                    </textarea>
+
+                    <br><br>
+
+                    <label for="bebidas">Bebidas favoritas:</label><br>
+
+                    <select id="bebidas" multiple>
+
+                        <optgroup label="Cafés">
+
+                            <option>Americano</option>
+                            <option>Capuchino</option>
+                            <option>Latte</option>
+
+                        </optgroup>
+
+                        <optgroup label="Frías">
+
+                            <option>Frappé</option>
+                            <option>Té Helado</option>
+
+                        </optgroup>
+
+                    </select>
+
+                    <br><br>
+
+                    <button type="submit">
+                        Enviar reservación
+                    </button>
+
+                </fieldset>
+
+            </form>
+
+        </article>
+
+    </section>
+
+    <div>
+
+        <h2>Información adicional</h2>
+
+        <p>
+            Horario:
+            <strong>Lunes a Domingo</strong>.
+        </p>
+
+    </div>
+
+    <footer>
+
+        <hr>
+
+        <p>
+            © 2026 Cafetería Aroma.
+        </p>
+
+        <p>
+            <a href="#">Aviso de privacidad</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
