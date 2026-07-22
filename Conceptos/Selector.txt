@@ -43,34 +43,57 @@ a:active{
 
 propiedades
 
-background-color: url("../img/img.jpg")
-background-size: 300px 300px;
-background-position: right bottom;
-background-attachment: fixed;
-background-repeat: no-repeat;
+width:
+
+border:
+
+margin;
+
+margin-top;
+
+margin-bottom;
+
+margin-right;
+
+margin-left
+
+padding;
+
+padding-top;
+
+padding-bottom;
+
+padding-rigth;
+
+padding-left;
 
 color: red;
 
 font-family: arial;
+
 font-size: 200;
 
-border-style:dotted;
+font-style: (oblique, cursive)
 
-border-style:solid;
+text-decoration: (line-throught, overline, underline)
 
-border-style: Groove;
+text-tranform:(uppercase, capitalize, lowercase)
 
-border-style: dashed;
+letter-spacing: 
 
-border-style: outset;
+background-color: url("../img/img.jpg")
 
-border-style: doublé;
+background-size: 300px 300px;
 
-border-style: inset;
+background-position: right bottom;
 
-border-style: ridge;
+background-attachment: fixed;
 
-border-style: dashed dotted dotted solid;
+background-repeat: no-repeat, repeat;
+
+border: 15px solid, green;
+
+border-style: dotted, solid, Groove, dashed, outset, doublé, inset, ridge;
 
 border-width: 5px;
 
