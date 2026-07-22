@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+    <link rel="stylesheet" href="css/ejercicio2.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Café Aroma</h1>
+        <p class="textbienvenida">Bienvenido a <strong>Café Aroma</strong>, un lugar especial para disfrutar de un vuen cfé y compartir momentos agradables.</p>
+
+        <nav class="navegacion">
+            <a href="#">Inicio</a>
+            <a href="#">Menú</a>
+            <a href="#">Horarios</a>
+            <a href="#">Reserva</a>
+        </nav>
+    </header>
+<hr>
+    <section class="inicio">
+        <h2>Bienvenidos a nuestra cafetería</h2>
+        <article class="cafeMomento">
+            <h2>Un café para cada momento</h2>
+            <p>Un café Aroma preparamos babidas con dedicacion y ofrecemos un ambiente tranquilo para nuestros clientes. Puedes visitarnos para desayunar, trabajar o simplemente descansar</p>
+
+            <p>Nuestro cfé es fresco y preparado con ciudado. También contamos con productos <span>Dulces</span> y salados para acompañar tu bebida.</p>
+
+            <p><i>Todos nuestros clientes son bienvenidos</i>. ¡Esperamos tu visita!</p>
+        </article>
+    </section>
+    <hr>
+    <section class="productos">
+        <h2>Nuestros Productos</h2>
+        <article class="bebidas">
+            <h3>Babias Favoritas</h3>
+            <ol>
+                <li>Café americano</li>
+                <li>Cappuccino</li>
+                <li>Chocolate caliente</li>
+                <li>Té de hierbas</li>
+            </ol>
+
+            <h4>Productos para acompañar</h4>
+            <ul>
+                <li>Croissant</li>
+                <li>Galletas</li>
+                <li>Pastel de chocolate</li>
+                <li>Sándwich de queso</li>
+            </ul>
+
+            <h5>Informacion de nuestros productos</h5>
+            <dl>
+                <dt>Café americano</dt>
+                <dd>Bebida preparada con café y agua caliente</dd>
+
+                <dt>Cappuccino</dt>
+                <dd>Café acompañado de leche y espuma.</dd>
+
+                <dt>Croissant</dt>
+                <dd>Pan dulce de textura ligera y crujiente</dd>
+            </dl>
+
+            <h6>Nota para nuestros clientes</h6>
+            <p>pregunta a nuestro personal por los productos disponibles durante el día</p>
+        </article>
+    </section>
+<hr>
+    <section>
+        <h2 class="menu">Menú y precios</h2>
+        <table class="tablas">
+            <caption>Menú de Café Aroma</caption>
+            <tr>
+                <th colspan="3" class="menubebida">Bebidas</th>
+            </tr>
+            <tr>
+                <th class="menubebida">Producto</th>
+                <th>Tamaño</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Café americano</td>
+                <td>Mediano</td>
+                <td>$35</td>
+            </tr>
+            <tr>
+                <td>grande</td>
+                <td>$45</td>
+            </tr>
+            <tr>
+                <td>Cappuccino</td>
+                <td>Mediano</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Chocolate caliente</td>
+                <td>Grande</td>
+                <td>$55</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+    
+    <section>
+        <h2>Horarios de atención</h2>
+        <article>
+            <h3>Visítanos</h3>
+            <table class="tablas">
+                <caption>Horario semanal</caption>
+                <tr>
+                    <th class="menubebida">Día</th>
+                    <th class="menubebida">Horario</th>
+                </tr>
+                <tr>
+                    <td>Lunes a viernes</td>
+                    <td>7:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td>Sábados</td>
+                    <td>8:00 - 21:00</td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td>9:00 - 18:00</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Galería Multimedia</h2>
+        <article>
+            <h3>Conoce nuestro espacio</h3>
+            <p>Acontinuacion de la cagrereía café aroma</p>
+
+            <div>
+                <img src="img/img.jpg" alt="css" class="imagen">
+            </div>
+
+            <h3>video de nuestra cafetería</h3>
+            <div>
+                <video src="video/video.mp4" controls class="video"></video>
+            </div>
+
+            <h4>Audio ambiental</h4>
+            <div>
+                <audio src="audio/audio.mp3" controls class="audio"></audio>
+            </div>
+
+        </article>
+    </section>
+<hr>
+    <section>
+        <h2>Reserva una mesa</h2>
+        <form action="reserva.php" method="post">
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                <label for="nombre">Nombre: <input type="text" id="nombre" name="nombre"> </label><br><br>
+                <label for="correo">Correo electrónico: <input type="email" id="correo" name="correo"></label><br><br>
+                <label for="telefono">Número de Teléfono: <input type="number" id="telefono" name="telefono"> </label><br><br>
+                <label for="password">Contraseña de reserva: <input type="password" id="password" name="password"> </label><br><br>
+                <label for="fecha">Fecha de reserva: <input type="date" id="fecha" name="fecha"> </label><br><br>
+                <label for="comprobante">Adjuntar comprobante <input type="file" id="comprobante" name="comprobante" class="comprobante"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Preferencias</legend>
+                <label>¿Deseas una mesa en alguna zona específica?</label><br><br>
+                <div>
+                    <label><input type="radio" name="zona" id="interior" value="interior"> Interior </label><br>
+                    <label><input type="radio" name="zona" id="Exterior" value="exterior"> Exterior  </label><br>
+                </div><br>
+                <div>
+                    <label><input type="checkbox" name="pastel" id="pastel"> Deseo solicitar un pastel </label><br>
+                    <label><input type="checkbox" name="bebida" id="bebida"> Deseo solicitar una bebida especial </label>
+                </div><br>
+
+                <div>
+                    <label>Número de personas:</label>
+                    <select name="grupo" size="4" multiple>
+                        <optgroup label="Grupo pequeño">
+                            <option>1 persona</option>
+                            <option>2 personas</option>
+                            <option>3 personas</option>
+                            <option>4 personas</option>
+                        </optgroup>
+                        <optgroup label="Grupo grande">
+                            <option>5 personas</option>
+                            <option>6 personas</option>
+                            <option>7 personas</option>
+                            <option>8 personas</option>
+                        </optgroup>
+                    </select>
+                </div><br>
+
+                <label>Comentarios:</label><br>
+                <textarea id="comentarios" name="comentarios" cols="20" rows="2" readonly>Escribe aqí tus comentarios sobre la reserva </textarea><br><br>
+
+                <button type="submit">Enviar reserva</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p class="texfo">Café Aroma <br> Teléfono: 555-123-4567 <br> correo: contacto@cafearoma.com <br> gracias por visitar</p>
+    </footer>
+
+</body>
+</html>

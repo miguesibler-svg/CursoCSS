@@ -1,122 +1,27 @@
-dame un código html que contenga 
-
-header, nav, section, article, div, footer, h1, h2, h3, h4, h5, h6, p, strong, em, b, i, u, span, br, hr, a, img, video, audio, ol, ul, li, dl, dt, dd, table(colspan, rowspan), caption, tr, th, td, form, fieldset, legend, label, input(text, number, email, password, date, file, checkbox, radio), textarea(readonly), select(multiple), optgroup, option, button
-
-Qué contenga css y HTML es para practicar mi HTML y css admeas debe de ser nivel prinicpienate en css y sea realista  
-que no contenga ni js 
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 Genera un proyecto web básico compuesto por dos archivos separados:
 
-un HTML y un css
+un HTML y un CSS
 
-El archivo html debe enlazar correctamente el archivo styles.css. No utilices JavaScript, bibliotecas externas ni frameworks.
-
-El objetivo es crear una página web realista, sencilla y bien organizada, pensada para que un estudiante de nivel principiante practique HTML y CSS.
+El archivo html debe enlazar correctamente el archivo css/ejercicio.css
 
 ## Requisitos generales
 
 * Utiliza una estructura semántica correcta.
+* No utilizar JavaScript.
 * El código debe estar correctamente indentado y organizado.
 * El HTML y el CSS deben ser fáciles de leer y comprender.
 * El diseño debe ser simple, limpio y funcional.
-* El CSS debe ser exclusivamente de nivel principiante, utilizando únicamente propiedades básicas como:
+* El CSS debe incluir todas las propiedades que se indiquen y no se deben de agregar mas. 
+* El archivo html debe incluir todas las etiquetas y no se debe de agregar mas.
 
-  * color
-  * background-color
-  * font-family
-  * font-size
-  * text-align
-  * width
-  * height
-  * margin
-  * padding
-  * border
-  * border-radius
-  * display
-* No utilices Flexbox, CSS Grid, `position`, animaciones, transiciones, variables CSS ni técnicas avanzadas.
+dame un código html que contenga 
 
-## El archivo html debe incluir las siguientes etiquetas
+header, nav, section, article, div, footer, h1, h2, h3, h4, h5, h6, p, strong, em, b, i, u, span, br, hr, a, img, video, audio, ol, ul, li, dl, dt, dd, table(colspan, rowspan), caption, tr, th, td, form, fieldset, legend, label, input(text (placeholder), number, email, password, date, file, checkbox, radio), textarea(readonly), select(multiple), optgroup, option(selected, disabled), button(reset, submit)
 
-### Estructura semántica
+Dame un codigo css que contenga css(selectores, clases, selector id, pseudoclases)
 
-* header
-* nav
-* section
-* article
-* div
-* footer
+Propiedades( color, font-family, font-size, text-aling, background-color, background-image(url("../img/img.jpg");), background-repeat(repeat, no-repeat), background-size, background-attachment, background-position-z, border-style(solid, groove, dashed, dotted, double) border-radius, border-width, border-color, hover)
 
-### Encabezados y texto
-
-* h1
-* h2
-* h3
-* h4
-* h5
-* h6
-* p
-* strong
-* em
-* b
-* i
-* u
-* span
-* br
-* hr
-
-### Enlaces y contenido multimedia
-
-* a
-* img
-* video
-* audio
-
-### Listas
-
-* ol
-* ul
-* li
-* dl
-* dt
-* dd
-
-### Tablas
-
-La tabla debe contener:
-
-* table
-* caption
-* tr
-* th
-* td
-* debe de utilizar colspan.
-* debe de utilizar rowspan.
-
-### Formularios
-
-El formulario debe incluir:
-
-* form
-* fieldset
-* legend
-* label
-* input de tipo:
-
-  * text
-  * number
-  * email
-  * password
-  * date
-  * file
-  * checkbox
-  * radio
-* textarea con el atributo readonly.
-* select con el atributo multiple.
-* optgroup
-* option
-* button
 
 ## Tema de la página
 
@@ -125,4 +30,53 @@ Selecciona un tema realista (por ejemplo, una cafetería, una biblioteca, una ti
 ## Objetivo
 
 El resultado debe ser un proyecto completo formado únicamente por un archivo html y css, donde se utilicen correctamente todas las etiquetas solicitadas y un CSS básico. El código debe ser claro, ordenado y fácil de entender para una persona que está aprendiendo HTML y CSS desde cero.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Proyecto web básico: HTML y CSS
+
+Genera un proyecto web básico compuesto únicamente por dos archivos separados:
+
+Un archivo HTML.
+Un archivo CSS ubicado en css/ejercicio.css.
+
+El archivo HTML debe enlazar correctamente el archivo CSS mediante la ruta css/ejercicio.css.
+
+Requisitos generales
+* Utiliza una estructura HTML semántica y correcta.
+* No utilices JavaScript.
+* El código debe estar correctamente indentado, organizado y estructurado.
+* El HTML y el CSS deben ser fáciles de leer y comprender.
+* El diseño debe ser simple, limpio y funcional.
+* El archivo HTML debe incluir todas las etiquetas solicitadas y no se deben agregar etiquetas HTML adicionales.
+* El archivo CSS debe incluir todos los selectores, pseudoclases y propiedades CSS solicitadas y no se deben agregar propiedades CSS adicionales.
+* Requisitos del archivo HTML
+
+Genera un archivo HTML que contenga y utilice correctamente todas las siguientes etiquetas y elementos: 
+
+header, nav, section, article, div, footer, h1, h2, h3, h4, h5, h6, p, strong, em, b, i, u, span, br, hr, a, img, video, audio, ol, ul, li, dl, dt, dd, table(colspan, rowspan), caption, tr, th, td, form, fieldset, legend, label, input(text (placeholder), number, email, password, date, file, checkbox, radio), textarea(readonly), select(multiple), optgroup, option(selected, disabled), button(reset, submit).
+
+Todas las etiquetas y elementos solicitados deben utilizarse de manera correcta y coherente dentro de la estructura de la página. Los elementos deben estar relacionados con el tema seleccionado y deben integrarse de forma natural en el contenido.
+
+Requisitos del archivo CSS
+
+Genera un archivo CSS que contenga y utilice correctamente los siguientes selectores, conceptos y propiedades: 
+
+selectores, clases, selector id, pseudoclases, color, font-family, font-size, text-align, background-color, background-image(url("../img/img.jpg")), background-repeat(repeat, no-repeat), background-size, background-attachment, background-position, border-style(solid, groove, dashed, dotted, double), border-radius, border-width, border-color, hover.
+
+La pseudoclase :hover debe utilizarse correctamente para generar un cambio visual al pasar el cursor sobre elementos interactivos, como enlaces o botones.
+
+No se deben agregar propiedades CSS adicionales que no estén incluidas en la lista solicitada.
+
+## Tema de la página
+
+Selecciona un tema realista (por ejemplo, una cafetería, una biblioteca, una tienda de mascotas, un restaurante, una papelería o un gimnasio). Todo el contenido debe estar relacionado con ese tema para que el sitio tenga coherencia.
+
+## Objetivo
+
+El resultado debe ser un proyecto completo formado únicamente por un archivo html y css, donde se utilicen correctamente todas las etiquetas solicitadas y un CSS básico. El código debe ser claro, ordenado y fácil de entender para una persona que está aprendiendo HTML y CSS desde cero.
+
+
 

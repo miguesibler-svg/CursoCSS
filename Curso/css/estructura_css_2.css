@@ -1,0 +1,12 @@
+body{/* Selector para body */
+    background-color: rgba(38, 209, 163, 0.973);
+}
+
+h1{
+    color:bisque ;
+}
+
+p{
+    color:brown;
+}
+

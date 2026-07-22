@@ -1,0 +1,80 @@
+Selector
+
+a{
+
+}
+
+p{
+
+}
+
+clases
+
+.clase1{
+
+}
+
+.clase2{
+
+}
+
+selector id
+
+#id1{
+
+}
+
+#id2{
+
+}
+
+
+pseudoclases
+
+a:hover{
+
+}
+
+a:active{
+
+}
+
+
+
+propiedades
+
+background-color: url("../img/img.jpg")
+background-size: 300px 300px;
+background-position: right bottom;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+color: red;
+
+font-family: arial;
+font-size: 200;
+
+border-style:dotted;
+
+border-style:solid;
+
+border-style: Groove;
+
+border-style: dashed;
+
+border-style: outset;
+
+border-style: doublé;
+
+border-style: inset;
+
+border-style: ridge;
+
+border-style: dashed dotted dotted solid;
+
+border-width: 5px;
+
+border-radius: 10px;
+
+
+

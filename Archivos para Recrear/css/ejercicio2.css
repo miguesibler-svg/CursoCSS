@@ -1,0 +1,178 @@
+body {
+    color: #3e2723;
+    background-color: #f5e6d3;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: left;
+}
+
+header {
+    color: #ffffff;
+    background-color: #6f4e37;
+    text-align: center;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #d7b899;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #3e2723;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: #6f4e37;
+}
+
+section {
+    background-color: #fff8f0;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+article {
+    color: #4e342e;
+    background-color: #ffffff;
+    border-style: groove;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    color: #6f4e37;
+    font-size: 28px;
+}
+
+h3 {
+    color: #8d6e63;
+    font-size: 24px;
+}
+
+h4 {
+    color: #795548;
+    font-size: 20px;
+}
+
+h5 {
+    color: #5d4037;
+    font-size: 18px;
+}
+
+h6 {
+    color: #4e342e;
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+span {
+    color: #8d6e63;
+}
+
+table {
+    background-color: #fff8f0;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+caption {
+    color: #6f4e37;
+    font-size: 24px;
+}
+
+th {
+    color: #ffffff;
+    background-color: #6f4e37;
+    border-style: solid;
+    border-width: 2px;
+}
+
+td {
+    color: #3e2723;
+    background-color: #f5e6d3;
+    border-style: solid;
+    border-width: 2px;
+}
+
+form {
+    background-color: #fff8f0;
+    border-style: ridge;
+    border-width: 4px;
+    border-radius: 10px;
+}
+
+fieldset {
+    border-style: dashed;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+legend {
+    color: #6f4e37;
+    font-size: 20px;
+}
+
+label {
+    color: #4e342e;
+}
+
+input {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+textarea {
+    background-color: #f5e6d3;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+select {
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #6f4e37;
+    font-size: 18px;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: #6f4e37;
+    background-color: #f5e6d3;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #6f4e37;
+    text-align: center;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 10px;
+}
