@@ -35,48 +35,146 @@ El resultado debe ser un proyecto completo formado únicamente por un archivo ht
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Proyecto web básico: HTML y CSS
+# Proyecto web básico: HTML y CSS
 
-Genera un proyecto web básico compuesto únicamente por dos archivos separados:
+## Objetivo del proyecto
 
-Un archivo HTML.
-Un archivo CSS ubicado en css/ejercicio.css.
+Desarrolla un proyecto web básico compuesto únicamente por **dos archivos separados**:
 
-El archivo HTML debe enlazar correctamente el archivo CSS mediante la ruta css/ejercicio.css.
+* Un archivo HTML.
+* Un archivo CSS ubicado en la ruta `css/ejercicio.css`.
 
-Requisitos generales
-* Utiliza una estructura HTML semántica y correcta.
+El archivo HTML debe enlazar correctamente la hoja de estilos mediante la siguiente ruta:
+
+css/ejercicio.css
+
+## Requisitos generales
+
+* Utiliza una estructura HTML semántica, correcta y coherente.
 * No utilices JavaScript.
 * El código debe estar correctamente indentado, organizado y estructurado.
-* El HTML y el CSS deben ser fáciles de leer y comprender.
+* Tanto el HTML como el CSS deben ser claros, ordenados y fáciles de leer y comprender.
 * El diseño debe ser simple, limpio y funcional.
-* El archivo HTML debe incluir todas las etiquetas solicitadas y no se deben agregar etiquetas HTML adicionales.
-* El archivo CSS debe incluir todos los selectores, pseudoclases y propiedades CSS solicitadas y no se deben agregar propiedades CSS adicionales.
-* Requisitos del archivo HTML
+* El archivo HTML debe incluir **todas las etiquetas y elementos solicitados**, sin agregar etiquetas HTML adicionales.
+* El archivo CSS debe incluir **todos los selectores, pseudoclases y propiedades CSS solicitados**, sin agregar propiedades CSS adicionales.
 
-Genera un archivo HTML que contenga y utilice correctamente todas las siguientes etiquetas y elementos: 
+## Requisitos del archivo HTML
 
-header, nav, section, article, div, footer, h1, h2, h3, h4, h5, h6, p, strong, em, b, i, u, span, br, hr, a, img, video, audio, ol, ul, li, dl, dt, dd, table(colspan, rowspan), caption, tr, th, td, form, fieldset, legend, label, input(text (placeholder), number, email, password, date, file, checkbox, radio), textarea(readonly), select(multiple), optgroup, option(selected, disabled), button(reset, submit).
+Genera un archivo HTML que contenga y utilice correctamente todos los siguientes elementos y etiquetas:
 
-Todas las etiquetas y elementos solicitados deben utilizarse de manera correcta y coherente dentro de la estructura de la página. Los elementos deben estar relacionados con el tema seleccionado y deben integrarse de forma natural en el contenido.
+* header
+* nav
+* section
+* article
+* div
+* footer
+* h1, h2, h3, h4, h5, h6
+* p
+* strong
+* em
+* b
+* i
+* u
+* span
+* br
+* hr
+* a
+* img
+* video
+* audio
+* ol
+* ul
+* li
+* dl
+* dt
+* dd
+* table(colspan, rowspan)
+* caption
+* tr
+* th
+* td
+* form 
+* fieldset
+* legend
+* label
+* input(text, number, email, password, date, file, checkbox, radio)
+* textarea(readonly)
+* select(multiple)
+* optgroup
+* option(selected, disabled)
+* button(reset, submit)
 
-Requisitos del archivo CSS
+Todas las etiquetas y elementos solicitados deben utilizarse de manera **correcta, coherente y funcional** dentro de la estructura de la página.
 
-Genera un archivo CSS que contenga y utilice correctamente los siguientes selectores, conceptos y propiedades: 
+El contenido debe estar relacionado con el tema seleccionado y todos los elementos deben integrarse de forma natural dentro del sitio web. Evita utilizar etiquetas o elementos únicamente para cumplir con el requisito; cada uno debe tener una función coherente dentro de la página.
 
-selectores, clases, selector id, pseudoclases, color, font-family, font-size, text-align, background-color, background-image(url("../img/img.jpg")), background-repeat(repeat, no-repeat), background-size, background-attachment, background-position, border-style(solid, groove, dashed, dotted, double), border-radius, border-width, border-color, hover.
+## Requisitos del archivo CSS
 
-La pseudoclase :hover debe utilizarse correctamente para generar un cambio visual al pasar el cursor sobre elementos interactivos, como enlaces o botones.
+Genera un archivo CSS que contenga y utilice correctamente los siguientes selectores, conceptos y propiedades:
 
-No se deben agregar propiedades CSS adicionales que no estén incluidas en la lista solicitada.
+* Selectores.
+* Clases.
+* Pseudoclases.
+
+propiedades:
+
+* width:
+* border:
+* margin;
+* margin-top;
+* margin-bottom;
+* margin-right;
+* margin-left
+* padding;
+* padding-top;
+* padding-bottom;
+* padding-rigth;
+* padding-left;
+* color:
+* font-family:
+* font-size:rgb(75, 54, 33)
+* font-style: (oblique, cursive)
+* text-decoration: (line-throught, overline, underline)
+* text-tranform:(uppercase, capitalize, lowercase)
+* letter-spacing: 
+* background-color: url("../img/img.jpg")
+* background-size: 300px 300px;
+* background-position:
+* background-attachment:
+* background-repeat: (no-repeat, repeat)
+* border:
+* border-style: dotted, solid, Groove, dashed, outset, doublé, inset, ridge;
+* border-width:
+* border-radius:
+
+La pseudoclase 
+
+:hover
+
+**No se deben agregar propiedades CSS adicionales** que no estén incluidas en la lista de propiedades solicitadas.
 
 ## Tema de la página
 
-Selecciona un tema realista (por ejemplo, una cafetería, una biblioteca, una tienda de mascotas, un restaurante, una papelería o un gimnasio). Todo el contenido debe estar relacionado con ese tema para que el sitio tenga coherencia.
+Selecciona un tema realista para desarrollar el sitio web. Algunos ejemplos pueden ser:
 
-## Objetivo
+* Una cafetería.
+* Una biblioteca.
+* Una tienda de mascotas.
+* Un restaurante.
+* Una papelería.
+* Un gimnasio.
 
-El resultado debe ser un proyecto completo formado únicamente por un archivo html y css, donde se utilicen correctamente todas las etiquetas solicitadas y un CSS básico. El código debe ser claro, ordenado y fácil de entender para una persona que está aprendiendo HTML y CSS desde cero.
+Todo el contenido de la página debe estar relacionado con el tema seleccionado, de manera que el sitio mantenga una temática coherente y una estructura lógica.
 
+## Resultado esperado
 
+El resultado final debe ser un proyecto web completo compuesto únicamente por:
 
+1. Un archivo HTML.
+2. Un archivo CSS ubicado en css/ejercicio.css.
+
+El proyecto debe utilizar correctamente todas las etiquetas HTML solicitadas y los selectores, pseudoclases y propiedades CSS indicados.
+
+El código debe ser **claro, ordenado, correctamente estructurado y fácil de comprender para una persona que está aprendiendo HTML y CSS desde cero**.
+
+El resultado debe demostrar el uso práctico y coherente de los elementos HTML y conceptos básicos de CSS solicitados, manteniendo un diseño sencillo, limpio y funcional.

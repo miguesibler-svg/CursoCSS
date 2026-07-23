@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="css/ejercicio3.css">
+</head>
+<body>
+    <header>
+        <h1>Cafetería Aroma</h1>
+        <p class="parrheader">
+            Un espacio para disfrutar de un buen café, <strong>Productos artesanales</strong> y momentos especiales.
+        </p>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Menú</a>
+            <a href="#">Nuestra historia</a>
+            <a href="#">Reservación</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Bienvenidos a Cafetería Aroma</h2>
+        <div>
+            <img src="img/img.jpg">
+            <article>
+                <h3>El sabor de cada momento</h3>
+                <p>En <b>Cafetería Aroma</b> preparamos cada bebida con ingredientes seleccionados y mucho cuidado. <br>Nuestro objetivo es ofrecerte una experiencia cálida y agradable.</p>
+                <p>Disfruta de nuestro café <u>100% seleccionado</u> y descubre nuestros productos de temporada.</p>
+            </article>
+        </div>
+
+        <hr>
+        <h3>Horarios de atención</h3>
+        <ol>
+            <li>Lunes a viernes: 7:00 a 20:00</li>
+            <li>Sábado: 8:00 a 21:00</li>
+            <li>Domingo: 9:00 a 18:00</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Nuestro Menú</h2>
+        <article class="produmenu">
+            <h3>Bebidas favoritas</h3>
+            <ul>
+                <li>Café americano</li>
+                <li>Capuchino</li>
+                <li>Latte</li>
+                <li>Chocolate caliente</li>
+            </ul>
+        </article>
+        <article class="produmenu">
+            <h2>Productos disponibles</h2>
+            <dl>
+                <dt>Café De Especialidad</dt>
+                <dd>Granos seleccionados de diferentes regiones.</dd>
+
+                <dt>Pan Artesanal</dt>
+                <dd>Pan recién horneado todos los días.</dd>
+
+                <dt>Pastelería</dt>
+                <dd>Postres preparados de manera artesanal.</dd>
+            </dl>
+        </article>
+
+        <h3>Precios del menú</h3>
+        <table>
+            <caption>Menú de Cafetería Aroma</caption>
+            <tr>
+                <th colspan="2" class="thbebida">Bebidas</th>
+                <th class="thprecio">Precio</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Café</td>
+                <td>Americano</td>
+                <td>$64</td>
+            </tr>
+            <tr>
+                <td>Capuchino</td>
+                <td>$55</td>
+            </tr>
+            <tr>
+                <td colspan="2">Chocolate caliente</td>
+                <td>$55</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Nuestra historia</h2>
+        <article>
+            <h3>Una cafetería con tradición</h3>
+            <p>Cafeteria Aroma nació con la idea de crear un lugar donde las personas pudieran compartir una bebida y disfrutar de un ambiente tranquilo</p>
+            <h4>conoce nuestro espacio</h4>
+            <video src="video/video.mp4" controls></video>
+            <audio src="audio/audio.mp3" controls></audio>
+        </article>
+    </section>
+    <section>
+        <h2>Reserva Una Mesa</h2>
+        <form action="reserva.php" method="post">
+            <fieldset>
+                <legend>Datos de la reservación</legend>
+                <label>Nombre: <input type="text" id="nombre" name="nombre"> </label>
+                <label>Número de personas: <input type="number" id="persona" name="persona"> </label>
+                <label>Correo electrónico: <input type="email" id="correo" name="correo"> </label>
+                <label>Código de reservación: <input type="password" id="codigo" name="codigo"> </label>
+                <label>Fecha: <input type="date" id="fecha" name="fecha"> </label>
+                <label>Comprobante: <input type="file" id="comprobante" name="comprobante"> </label>
+
+                <label> <input type="checkbox"> Deseo recibir novedades de la cafetería. </label> <br>
+
+                <label>Preferencia de mesa:</label>
+                <label> <input type="radio" id="interior" name="mesa"> Interior </label>
+                <label> <input type="radio" id="exterior" name="mesa"> Exterior</label>
+
+                <label>Bebidas Favoritas</label>
+                <select name="favorias" size="5" multiple>
+                    <optgroup label="Café">
+                        <option selected>Americano</option>
+                        <option>Capuchino</option>
+                    </optgroup>
+                    <optgroup label="Otra bebida">
+                        <option>Chocolate caliente</option>
+                        <option disabled>Té especial</option>
+                    </optgroup>
+                </select>
+
+                <label>Comentarios: </label>
+                <textarea>Gracias por elegir Cafetería Aroma.</textarea>
+
+                <button type="reset">Limpiar formulario</button>
+                <button type="submit">Reservar mesa</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p><span>Cafeteria Aroma</span> - Un lugar para compartir y disfrutar</p>
+    </footer>
+</body>
+</html>
