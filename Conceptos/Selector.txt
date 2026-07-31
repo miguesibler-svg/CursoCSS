@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="styles.css"
+
 Selector
 
 a{
@@ -81,7 +83,9 @@ text-tranform:(uppercase, capitalize, lowercase)
 
 letter-spacing: 
 
-background-color: url("../img/img.jpg")
+background-color:
+
+background-image: url("../img/img.jpg")
 
 background-size: 300px 300px;
 
@@ -99,5 +103,16 @@ border-width: 5px;
 
 border-radius: 10px;
 
+list-styles-type: (none);
+
+display:;
+
+cursor: ; 
+
+box-sizing:
+
+float:
+
+overflow: 
 
 

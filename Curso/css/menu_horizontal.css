@@ -1,0 +1,25 @@
+#menuhorizontal{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menuhorizontal a{
+    width:100px;
+    text-decoration: none;
+    text-align:center;
+    color: #beff00;
+    background-color: #2a8270;
+    padding: 3px 5px;
+    border-right: 1px solid blue;
+    display: block;
+
+}
+
+#menuhorizontal p{
+    float: left;
+}
+
+#menuhorizontal a:hover{
+    background-color: #cdcd24;
+}
