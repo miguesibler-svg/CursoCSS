@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafetería Aroma & Sabor</title>
+    <!-- Enlace obligatorio a la hoja de estilos -->
+    <link rel="stylesheet" href="css/ejercicio5.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cafetería Aroma & Sabor</h1>
+        <p>El mejor café artesanal, postres <strong>frescos</strong> y un ambiente <em>acogedor</em>.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="nosotros">
+        <article>
+            <h2>Sobre Nuestra Cafetería</h2>
+            <p>En <b>Aroma & Sabor</b> nos apasiona el café de especialidad. Utilizamos granos seleccionados con un toque <i>único</i> de tueste, manteniendo una tradición <u>artesanal</u> en cada taza.</p>
+            <p>Visítanos para disfrutar de una experiencia <span class="destacado">inolvidable</span>.</p>
+            <hr>
+            <h3>Detalles del Grano</h3>
+            <dl>
+                <dt>Origen</dt>
+                <dd>Café orgánico cultivado en fincas de altura.</dd>
+                <dt>Tueste</dt>
+                <dd>Tueste medio que resalta aromas frutales y notas de chocolate.</dd>
+            </dl>
+        </article>
+    </section>
+
+    <section id="galeria">
+        <h2>Nuestra Galería y Ambiente</h2>
+        <p>Conoce nuestras instalaciones y preparación.</p>
+        <div>
+            <img src="img/img.jpg" alt="Taza de café recién hecho">
+            <br>
+            <p>Escucha nuestro ambiente sonoro y mira nuestro proceso de elaboración:</p>
+            <audio controls src="audio/audio.mp3">Tu navegador no soporta el elemento de audio.</audio>
+            <br>
+            <video controls width="300" src="video/video.mp4">Tu navegador no soporta el elemento de video.</video>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menú de Especialidades</h2>
+        <table border="1">
+            <caption>Lista de Precios y Bebidas</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Categoría</th>
+                    <th rowspan="2">Bebida / Alimento</th>
+                    <th colspan="2">Precio</th>
+                </tr>
+                <tr>
+                    <th>Mediano</th>
+                    <th>Grande</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Café Caliente</td>
+                    <td>Espresso Americano</td>
+                    <td>$35.00</td>
+                    <td>$45.00</td>
+                </tr>
+                <tr>
+                    <td>Cappuccino Tradicional</td>
+                    <td>$50.00</td>
+                    <td>$60.00</td>
+                </tr>
+                <tr>
+                    <td>Repostería</td>
+                    <td colspan="2">Pastel de Chocolate</td>
+                    <td>$55.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Pasos para hacer tu pedido en barra:</h4>
+        <ol>
+            <li>Elige tu bebida preferida.</li>
+            <li>Selecciona el tipo de leche o endulzante.</li>
+            <li>Paga en caja y recoge en barra.</li>
+        </ol>
+    </section>
+
+    <section id="contacto">
+        <h2>Reserva una Mesa o Haz tu Pedido</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Información Personal</legend>
+                
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"><br><br>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad"><br><br>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo"><br><br>
+
+                <label for="password">Contraseña de Cuenta:</label>
+                <input type="password" id="password" name="password"><br><br>
+
+                <label for="fecha">Fecha de Reserva:</label>
+                <input type="date" id="fecha" name="fecha"><br><br>
+
+                <label for="comprobante">Adjuntar Comprobante de Pago:</label>
+                <input type="file" id="comprobante" name="comprobante"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferencias del Cliente</legend>
+
+                <p>¿Deseas recibir noticias y ofertas?</p>
+                <input type="checkbox" id="boletin" name="boletin">
+                <label for="boletin">Sí, suscribirme al boletín</label><br><br>
+
+                <p>Tipo de cliente:</p>
+                <input type="radio" id="frecuente" name="tipo_cliente" value="frecuente">
+                <label for="frecuente">Cliente Frecuente</label>
+                <input type="radio" id="nuevo" name="tipo_cliente" value="nuevo">
+                <label for="nuevo">Primera Visita</label><br><br>
+
+                <label for="sucursal">Selecciona Sucursales (mantén presionado Ctrl para seleccionar varias):</label><br>
+                <select id="sucursal" name="sucursal" multiple>
+                    <optgroup label="Zona Centro">
+                        <option value="centro" selected>Sucursal Centro Histórico</option>
+                        <option value="norte">Sucursal Plaza Norte</option>
+                    </optgroup>
+                    <optgroup label="Otras Zonas">
+                        <option value="sur" disabled>Sucursal Sur (Cerrada por remodelación)</option>
+                    </optgroup>
+                </select><br><br>
+
+                <label for="comentarios">Comentarios o Indicaciones Especiales:</label><br>
+                <textarea id="comentarios" name="comentarios" readonly>Horario de atención para reservas: 8:00 AM - 8:00 PM.</textarea><br><br>
+
+                <button type="submit">Enviar Reserva</button>
+                <button type="reset">Limpiar Formulario</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <h5>Contacto & Ubicación</h5>
+        <h6>Aroma & Sabor C.A.</h6>
+        <p>&copy; 2026 Cafetería Aroma & Sabor - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Aroma</title>
+    <link rel="stylesheet" href="css/ejercicio4.css">
+</head>
+
+<body>
+
+    <header id="encabezado">
+        <h1>Cafetería Aroma</h1>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Menú</a></li>
+                <li><a href="#">Promociones</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contenido">
+
+        <article>
+
+            <h2>Bienvenidos</h2>
+
+            <p>
+                Disfruta del mejor <strong>café</strong>,
+                preparado con gran <em>calidad</em>,
+                utilizando granos <b>seleccionados</b>,
+                con un ambiente <i>acogedor</i> y
+                un servicio <u>excepcional</u>.
+                <span>¡Te esperamos!</span>
+            </p>
+
+            <br>
+
+            <hr>
+
+            <h3>Nuestra cafetería</h3>
+
+            <img src="img/img.jpg" alt="Café" width="300">
+
+            <h4>Video del local</h4>
+
+            <video controls width="300">
+                <source src="video/video.mp4" type="video/mp4">
+            </video>
+
+            <h5>Música ambiental</h5>
+
+            <audio controls>
+                <source src="audio/audio.mp3" type="audio/mpeg">
+            </audio>
+
+            <h6>Servicios</h6>
+
+            <div class="listas">
+
+                <h3>Menú</h3>
+
+                <ol>
+                    <li>Espresso</li>
+                    <li>Capuccino</li>
+                    <li>Latte</li>
+                </ol>
+
+                <ul>
+                    <li>Pasteles</li>
+                    <li>Galletas</li>
+                    <li>Pan dulce</li>
+                </ul>
+
+                <dl>
+                    <dt>Espresso</dt>
+                    <dd>Café concentrado.</dd>
+
+                    <dt>Capuccino</dt>
+                    <dd>Café con leche espumosa.</dd>
+                </dl>
+
+            </div>
+
+            <table border="1">
+
+                <caption>Horario de Atención</caption>
+
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                    <th>Promoción</th>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">Lunes</td>
+                    <td>8:00 - 14:00</td>
+                    <td>2x1</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">Horario Especial</td>
+                </tr>
+
+                <tr>
+                    <td>Martes</td>
+                    <td>8:00 - 20:00</td>
+                    <td>Café Gratis</td>
+                </tr>
+
+            </table>
+
+            <form action="#">
+
+                <fieldset>
+
+                    <legend>Reservación</legend>
+
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Escribe tu nombre">
+
+                    <label>Edad:</label>
+                    <input type="number">
+
+                    <label>Correo:</label>
+                    <input type="email">
+
+                    <label>Contraseña:</label>
+                    <input type="password">
+
+                    <label>Fecha:</label>
+                    <input type="date">
+
+                    <label>Archivo:</label>
+                    <input type="file">
+
+                    <label>
+                        <input type="checkbox">
+                        Acepto promociones
+                    </label>
+
+                    <label>
+                        <input type="radio" name="bebida">
+                        Café
+                    </label>
+
+                    <label>
+                        <input type="radio" name="bebida">
+                        Té
+                    </label>
+
+                    <label>Comentarios</label>
+
+                    <textarea readonly>
+Gracias por visitar Cafetería Aroma.
+                    </textarea>
+
+                    <label>Sucursales</label>
+
+                    <select multiple>
+
+                        <optgroup label="Centro">
+
+                            <option selected>Matriz</option>
+
+                            <option>Sucursal Norte</option>
+
+                        </optgroup>
+
+                        <optgroup label="Otras">
+
+                            <option disabled>Próximamente</option>
+
+                        </optgroup>
+
+                    </select>
+
+                    <button type="reset">Limpiar</button>
+
+                    <button type="submit">Enviar</button>
+
+                </fieldset>
+
+            </form>
+
+        </article>
+
+    </section>
+
+    <footer>
+        <p>
+            © 2026 Cafetería Aroma |
+            <a href="#">www.cafeteriaaroma.com</a>
+        </p>
+    </footer>
+
+</body>
+</html>

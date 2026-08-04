@@ -1,0 +1,153 @@
+/* Selector general */
+
+body{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: red;
+    font-family: Arial;
+    font-size: 200%;
+    background-color: beige;
+    background-image: url("../img/img.jpg");
+    background-size: 300px 300px;
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+/* Selector por ID */
+
+#encabezado{
+    border: 15px solid green;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+/* Selector por clase */
+
+.menu{
+    list-style-type: none;
+}
+
+/* Selectores */
+
+header{
+    display: block;
+}
+
+nav{
+    background-color: burlywood;
+}
+
+section{
+    margin-top: 20px;
+}
+
+article{
+    padding: 20px;
+}
+
+div{
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: capitalize;
+}
+
+h3{
+    text-transform: lowercase;
+}
+
+h4{
+    text-decoration: overline;
+}
+
+h5{
+    text-decoration: underline;
+}
+
+h6{
+    text-decoration: line-through;
+}
+
+p{
+    letter-spacing: 2px;
+}
+
+strong{
+    font-style: oblique;
+}
+
+em{
+    font-style: italic;
+}
+
+b{
+    border-style: groove;
+}
+
+i{
+    border-style: dashed;
+}
+
+u{
+    border-style: dotted;
+}
+
+span{
+    border-style: double;
+}
+
+table{
+    border-style: outset;
+}
+
+fieldset{
+    border-style: inset;
+}
+
+legend{
+    border-style: ridge;
+}
+
+img{
+    float: left;
+}
+
+video{
+    display: block;
+}
+
+audio{
+    display: block;
+}
+
+a{
+    cursor: pointer;
+}
+
+/* Pseudoclase */
+
+a:hover{
+    color: blue;
+}

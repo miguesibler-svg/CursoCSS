@@ -130,22 +130,29 @@ propiedades:
 * padding-bottom;
 * padding-rigth;
 * padding-left;
-* color:
-* font-family:
-* font-size:rgb(75, 54, 33)
+* color: red;
+* font-family: arial;
+* font-size: 200;
 * font-style: (oblique, cursive)
 * text-decoration: (line-throught, overline, underline)
 * text-tranform:(uppercase, capitalize, lowercase)
 * letter-spacing: 
-* background-color: url("../img/img.jpg")
+* background-color:
+* background-image: url("../img/img.jpg")
 * background-size: 300px 300px;
-* background-position:
-* background-attachment:
-* background-repeat: (no-repeat, repeat)
-* border:
+* background-position: right bottom;
+* background-attachment: fixed;
+* background-repeat: no-repeat, repeat;
+* border: 15px solid, green;
 * border-style: dotted, solid, Groove, dashed, outset, doublé, inset, ridge;
-* border-width:
-* border-radius:
+* border-width: 5px;
+* border-radius: 10px;
+* list-styles-type: (none);
+* display:;
+* cursor: ; 
+* box-sizing:
+* float:
+* overflow: 
 
 La pseudoclase 
 

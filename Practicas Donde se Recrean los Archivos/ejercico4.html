@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="css/ejercicio4.css">
+</head>
+<body>
+<header>
+    <h1>Cafetería Aroma</h1>
+    <nav>
+        <ul>
+            <li> <a href="Inico">Inicio</a> </li>
+            <li> <a href="#">Menú</a> </li>
+            <li> <a href="#">Promociones</a> </li>
+            <li> <a href="#">Contactos</a> </li>
+        </ul>
+    </nav>
+</header>
+
+    
+<div class="inicio">
+    <h2>Bienvenidos</h2>
+
+    <p>Disfruta del mejor <b>café</b>, preparado con gran calidad, utilizando granos <span>seleccionados</span>, con un ambiente <i>acogedor</i> y un servicio<u>excepcional</u>.<strong>¡Te esperamos!</strong></p>
+</div>
+
+<hr>
+
+<div class="nuestracafe">
+    <h2>nuestra cafeteria</h2>
+
+    <img src="img/img.jpg">
+
+    <h2 class="videolo">video del local</h2>
+
+    <video src="video/video.mp4" controls></video>
+
+    <h2 class="musica">musica ambiental</h2>
+
+    <audio src="audio/audio.mp3" controls></audio>
+
+    <h4>Servicio</h4>
+
+</div>
+
+<section class="menu">
+
+    <h2>Menú</h2>
+
+    <ol>
+        <li>Espresso</li>
+        <li>Capuccino</li>
+        <li>Latte</li>
+    </ol>
+
+    <ul>
+        <li>Pasteles</li>
+        <li>Galletas</li>
+        <li>Pan dulce</li>
+    </ul>
+
+    <dl>
+        <dt>Espresso</dt>
+        <dd>Café concentrado.</dd>
+        <dt>Capuccino</dt>
+        <dd>Café con leche espumosa.</dd>
+    </dl>
+</section>
+
+<section class="horario">
+
+    <table>
+        <caption>Horario de Atención</caption>
+
+        <tr>
+            <th>Día</th>
+            <th>Horario</th>
+            <th>Promoción</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Lunes</td>
+            <td>8:00 - 14:00</td>
+            <td>2x1</td>
+        </tr>
+        <tr>
+            <td colspan="2">Horario Especial</td>
+        </tr>
+        <tr>
+            <td>Martes</td>
+            <td>8:00 - 20:00</td>
+            <td>Café Gratis</td>
+        </tr>
+    </table>
+
+</section>
+
+<section class="formu">
+    <fieldset>
+        <legend>Reservacion</legend>
+            <form action="reservacion.php"  method="post">
+
+                
+                <label for="nombre"> Nombre: <input type="text" id="nombre" name="nombre"> </label>
+                <label for="edad">Edad: <input type="number" id="edad" name="edad"> </label>
+                <label for="correo">Correo: <input type="email" id="correo" name="correo"> </label>
+                <label for="contrasena">Contraseña: <input type="password" id="contrasena" name="contrasena"> </label>
+                <label for="fecha">Fecha: <input type="date" id="fecha" name="fecha"> </label>
+                <label for="archivo">Archivo <input type="file" id="archivo" name="archivo"> </label>
+
+                <label for="acepto"> <input type="checkbox" id="acepto" name="acepto"> Acepto </label>
+
+                <label for="promocafe"> <input type="radio" id="cafe" name="promocion" value="cafe"> Café </label>
+                <label for="promote"> <input type="radio" id="Te" name="promocion" value="cafe"> Té  </label>
+
+
+                <label>Comentarios <textarea readonly>Gracias por visitar Cafetería Aroma.</textarea></label>
+                
+
+                <label> Sucursales</label>
+                <select name="sucursal" size="5" multiple>
+                    <optgroup label="Centro">
+                        <option value="matriz" selected>Matriz</option>
+                        <option value="sucursalNorte">Sucursal Norte</option>
+                    </optgroup>
+                    <optgroup label="Otras">
+                        <option disabled>Proximamente</option>
+                    </optgroup>
+                </select>
+
+                <button type="reset">Limpiar</button>
+                <button type="submit">Enviar</button>
+            </form>
+    </fieldset>
+</section>
+
+<footer>
+    <p>© 2026 Cafetería Aroma | <a href="https://www.google.com" target="_blank">www.cafeteriaaroma.com</a></p>
+</footer>
+
+</body>
+</html>

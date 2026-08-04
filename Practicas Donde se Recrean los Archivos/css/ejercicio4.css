@@ -1,0 +1,285 @@
+*{
+    margin:20px 30px 20px 30px;
+    background-color: #f5f5dc;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../img/img.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:block;
+    background-size:  500px;
+}
+
+header{
+    border: 4px solid green;
+    border-radius: 7px;
+    padding: 0px;
+}
+
+h1{
+    text-align: left;
+    margin-left: 0px; 
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    text-transform:uppercase;
+}
+
+nav{
+     background-color: #deb887;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+nav ul{
+    background-color: #deb887;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+nav li {
+    background-color: #deb887;
+    list-style-type: none;
+    margin: 0px;
+}
+
+nav a{
+    background-color: #deb887;
+    margin-left: 0px;
+    font-size: 32px;
+    color: #551a8b;
+}
+
+nav a:hover{
+    color:blue;
+}
+
+.inicio{
+    margin-top: 60px;
+    background-color:transparent;
+    padding:0px;
+}
+
+.inicio h2{
+    font-size: 50px;
+    margin-left: 20px;
+    background-color:transparent;
+}
+
+.inicio p{
+    background-color: transparent;
+    font-size: 37px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.inicio span{
+    border: 5px solid skyblue;
+    margin:0px;
+}
+
+.inicio i{
+    border: 5px dashed red;
+    margin:0px;
+}
+
+.inicio u{
+    border: 3px dotted red;
+    background-color: transparent;
+    margin:0px;
+}
+
+.inicio strong{
+    border: 4px double red;
+    margin:0px;
+
+}
+
+.nuestracafe{
+ background-color: transparent;
+}
+
+.nuestracafe h2{
+    font-size: 38px;
+    margin:0px;
+     background-color: transparent;
+}
+
+.nuestracafe img{
+    width:300px;
+    display: inline-block;
+    float: left;
+    margin:0px;
+    background-color: transparent;
+}
+
+.nuestracafe video{
+    width:300px;
+    display: inline-block;
+    margin: 0px;
+    background-color: transparent;
+}
+
+.videolo{
+    text-decoration: overline;
+}
+
+.musica{
+    text-decoration: underline;
+}
+
+.nuestracafe h4{
+    text-decoration:line-through;
+     background-color: transparent;
+}
+
+.menu{
+    background-color: white;
+}
+
+.menu h2{
+    background-color: white;
+    margin:0px;
+    margin-bottom:20px;
+    font-size:30px;
+}
+
+.menu ul{
+    background-color: white;
+    margin:0px;
+    margin-bottom:20px;
+    font-size: 30px;
+}
+
+.menu ol{
+    background-color: white;
+    margin:0px;
+    margin-bottom:20px;
+    font-size:30px;
+}
+
+.menu li{
+    background-color: white;
+    margin:0px;
+}
+
+.menu dl{
+    background-color: white;
+    margin:0px;
+    font-size:40px;
+}
+
+.menu dt{
+    background-color: white;
+    margin:0px;
+}
+
+.menu dd{
+    background-color: white;
+    margin:0px;
+    margin-left:50px;
+}
+
+.horario{
+    background-color: transparent;
+}
+
+.horario table{
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+.horario caption{
+    font-size:30px;
+    margin:0px;
+    background-color: transparent;
+}
+
+.horario th{
+    border:2px solid red;
+    font-size: 30px;
+    text-align: center;
+    padding:10px;
+    background-color: transparent;
+}
+
+.horario td{
+    border: 2px solid red;
+    font-size: 30px;
+    text-align: left;
+    padding:1px;
+    background-color: transparent;
+}
+
+.formu{
+    background-color: transparent;
+}
+
+.formu fieldset{
+    background-color: transparent;
+}
+
+.formu legend{
+    border: 2px solid silver;
+    font-size: 30px;
+    margin-left: 20px;
+    background-color: transparent;
+}
+
+.formu form{
+    background-color: transparent;
+    margin: 0px;
+}
+
+.formu label{
+    font-size:35px;
+    margin:0px;
+}
+
+.formu input{
+    margin:0px;
+    background-color: transparent;
+}
+
+.formu textarea{
+    margin:0px;
+}
+
+.formu select{
+    margin:0px;
+    width:100px;
+    height:50px;
+    font-size:14px;
+}
+
+.formu optgroup{
+    margin:0px;
+}
+
+.formu option{
+    margin:0px;
+}
+
+
+
+footer{
+    background-color: transparent;
+}
+
+footer p{
+    background-color: transparent;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer a{
+    background-color: transparent;
+    color:#551a8b;
+}
+
+footer a:hover{
+    color:blue;
+}
