@@ -1,0 +1,13 @@
+/*Son estilos para modificar el H1 */
+
+h1{
+    color: blue;
+    background-color: black;
+    font-size: 40px; /*Cambio de tamaño de texto*/
+}
+
+/*
+p{
+    font-size:10px;
+}
+*/

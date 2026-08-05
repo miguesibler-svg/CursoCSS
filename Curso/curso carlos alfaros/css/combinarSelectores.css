@@ -1,0 +1,20 @@
+h1.saiyajin{
+    color:blue;
+    font-family:25px;
+}
+
+
+section.saiyajin{
+    color:red;
+    font-family:arial;
+}
+
+div.saiyajin#goten{
+    color:brown;
+    font-family:'Times New Roman', Times, serif;
+}
+
+section.saiyajin>div.gohan+p{
+    color:brown;
+    font-family:'Times New Roman', Times, serif;
+}

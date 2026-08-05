@@ -1,0 +1,48 @@
+/*selector universal*/
+
+*{
+    color:brown;
+    font-size:50px;
+    background-color: aquamarine;
+}
+
+
+/*selectores de etiquetas */
+h1{
+    color: blue;
+    background-color: #000000;
+    font-size: 40px;
+}
+
+p{
+    font-size:10px;
+}
+
+div{
+    font-size:20px;
+    color:brown;
+}
+
+/*Selectores de id*/
+
+#goku {
+    color:aqua;
+    background-color:white;
+}
+
+#vegeta{
+    color:red;
+    background-color:white;
+}
+
+
+/*Selectrores de clase*/
+.saiyajin{
+    color:violet;
+    background-color:antiquewhite
+}
+
+/*Selector */
+
+
+

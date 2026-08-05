@@ -30,6 +30,19 @@ selector id
 
 }
 
+selector por atributo
+
+[class]{
+	color:red;
+}
+
+[href]{
+	color:red;
+}
+
+[class="saiyajin"]{
+    color:red;
+}
 
 pseudoclases
 
@@ -46,73 +59,48 @@ a:active{
 propiedades
 
 width:
+height:
 
-border:
+margin:
+margin-top:
+margin-right:
+margin-bottom:
+margin-left:
 
-margin;
+padding:
+padding-top:
+padding-right:
+padding-bottom:
+padding-left:
 
-margin-top;
+color:
 
-margin-bottom;
+font-family:
+font-size:
+font-style: (normal, italic, oblique)
 
-margin-right;
+text-decoration: (none, underline, overline, line-through)
+text-align:
+text-transform: (uppercase, lowercase, capitalize)
 
-margin-left
-
-padding;
-
-padding-top;
-
-padding-bottom;
-
-padding-rigth;
-
-padding-left;
-
-color: red;
-
-font-family: arial;
-
-font-size: 200;
-
-font-style: (oblique, cursive)
-
-text-decoration: (line-throught, overline, underline)
-
-text-tranform:(uppercase, capitalize, lowercase)
-
-letter-spacing: 
+letter-spacing:
 
 background-color:
+background-image: url("../img/img.jpg");
+background-size:
+background-position:
+background-attachment:
+background-repeat:
 
-background-image: url("../img/img.jpg")
+border:
+border-style: (none, solid, dotted, dashed, double, groove, ridge, inset, outset)
+border-width:
+border-radius:
 
-background-size: 300px 300px;
-
-background-position: right bottom;
-
-background-attachment: fixed;
-
-background-repeat: no-repeat, repeat;
-
-border: 15px solid, green;
-
-border-style: dotted, solid, Groove, dashed, outset, doublé, inset, ridge;
-
-border-width: 5px;
-
-border-radius: 10px;
-
-list-styles-type: (none);
-
-display:;
-
-cursor: ; 
-
-box-sizing:
+list-style-type: (none, disc, circle, square)
 
 float:
-
-overflow: 
-
-
+overflow:
+display:
+cursor:
+box-sizing:
