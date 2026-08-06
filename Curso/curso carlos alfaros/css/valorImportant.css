@@ -1,0 +1,23 @@
+section.saiyajin>div.gohan~p#goku{
+
+    color:blue ;
+}
+
+section.saiyajin>p{
+    color:cadetblue;
+    font-size:25px;
+}
+
+section.saiyajin>div.gohan~p#goku{
+
+    color:blue;
+}
+
+#goku{
+    color:red !important;
+}
+
+#goku{
+    color:white !important;
+}
+

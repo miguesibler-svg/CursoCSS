@@ -1,0 +1,23 @@
+:root{
+    --color-tituls: chocolate;
+    --color-secundario: grey;
+    --fuente:25px;
+}
+
+#goku{
+    color:blue;
+}
+
+#gohan{
+    color: var(--color-titulos, var(--color-secundario));
+    font-size: var(--fuente)
+}
+
+#goten{
+    color: var(--color-titulos);
+}
+
+#vegeta{
+    color: var(--color-titulos);
+    font-size: var(--fuente);
+}

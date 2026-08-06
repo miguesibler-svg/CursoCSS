@@ -1,0 +1,15 @@
+#goku{
+    color:blue;
+    font-size:35px;
+    border: 5px solid black;
+}
+
+#gohan{
+
+    border:inherit;
+}
+
+#goten{
+
+    color: initial;
+}
