@@ -1,0 +1,33 @@
+:root{
+    font-size:15px;
+
+}
+
+#goku{
+    color:blue;
+    font-size:2em;
+}
+
+#gohan{
+    font-size:3em;
+}
+
+#vegeta{
+   color:brown;
+   font-size:2rem;
+   height:10rem;
+   width:10rem;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#bulma{
+    color:brown;
+    background-color: aqua;
+    font-size: 100%;
+    width:70%;
+    height: 50%;
+}

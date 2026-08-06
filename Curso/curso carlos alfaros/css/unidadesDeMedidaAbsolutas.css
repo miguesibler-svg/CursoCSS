@@ -1,0 +1,19 @@
+:root{
+    --titulos: chocolate;
+    --color-secundario: grey;
+    --fuente: 25px;
+}
+
+#goku{
+    color:blue;
+    font-size: 3pc;
+    height:3in;
+    width: 70pt;
+    background-color: chocolate;
+}
+
+#vegeta{
+    height: 3.5cm;
+    width: 20mm;
+    background-color: red;
+}

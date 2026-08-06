@@ -1,0 +1,16 @@
+html,body{
+    width:100%;
+    height:100%;
+    margin: 0;
+    padding:0;
+}
+
+#vegeta{
+    color: brown;
+    background-color: lightgrey;
+    width:700px;
+    height:400px;
+    padding:10px;
+    margin: 20px;
+    border: 5px solid black;
+}
