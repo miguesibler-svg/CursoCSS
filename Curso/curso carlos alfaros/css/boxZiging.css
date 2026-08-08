@@ -1,0 +1,16 @@
+body{
+    height:100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#goku{
+    margin:50px;
+    width:220px;
+    height:220px;
+    border: 10px solid blue;
+    padding:10px;
+    box-sizing: border-box;
+}
+

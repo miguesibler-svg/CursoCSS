@@ -1,0 +1,15 @@
+#goku{
+    width: 500px;
+    height: 300px;
+    background-color:red;
+    padding: 1px;
+}
+
+#vegeta{
+    background-color: blue;
+    width: 500px;
+    height: 100px;
+    margin-top:50px;
+}
+
+

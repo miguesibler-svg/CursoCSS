@@ -115,48 +115,69 @@ Genera un archivo CSS que contenga y utilice correctamente los siguientes select
 * Selectores.
 * Clases.
 * Pseudoclases.
+* combinadores
+* varibales
 
 propiedades:
 
 * width:
 * border:
+
 * margin;
 * margin-top;
 * margin-bottom;
 * margin-right;
 * margin-left
+
 * padding;
 * padding-top;
 * padding-bottom;
 * padding-rigth;
 * padding-left;
+
 * color: red;
+
 * font-family: arial;
 * font-size: 200;
 * font-style: (oblique, cursive)
+
+* text-align: 
 * text-decoration: (line-throught, overline, underline)
 * text-tranform:(uppercase, capitalize, lowercase)
+
 * letter-spacing: 
+
 * background-color:
-* background-image: url("../img/img.jpg")
+* background-image: url("../img/img.jpg"), linear-gradient()
 * background-size: 300px 300px;
 * background-position: right bottom;
 * background-attachment: fixed;
-* background-repeat: no-repeat, repeat;
+* background-repeat: no-repeat, repeat, cover;
+* background-origin: conten-box, border-box, padding-box
+* background-clip: content-box, border-box, padding-box, text;
+* background-image: linear-gradient
+
 * border: 15px solid, green;
 * border-style: dotted, solid, Groove, dashed, outset, doublé, inset, ridge;
 * border-width: 5px;
 * border-radius: 10px;
+* border-color
+
 * list-styles-type: (none);
 * display:;
 * cursor: ; 
-* box-sizing:
+* box-sizing: content-box , border-box; 
 * float:
 * overflow: 
 
+* opacity
 La pseudoclase 
 
 :hover
+
+* --nombre-variable:
+
+
 
 **No se deben agregar propiedades CSS adicionales** que no estén incluidas en la lista de propiedades solicitadas.
 
