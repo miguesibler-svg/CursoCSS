@@ -1,0 +1,6 @@
+#vegeta{
+    width: 350px;
+    margin: 70px auto;
+    display: block;
+    filter: saturate(4);
+}

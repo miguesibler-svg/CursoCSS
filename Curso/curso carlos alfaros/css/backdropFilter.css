@@ -1,0 +1,31 @@
+body{
+    width:100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: light-dark(#f7f7f7, #202A2D);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/img.jpg");
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login{
+    width: 90%;
+    max-width: 350px;
+    padding: 100px 0;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.login label,
+.login input{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}

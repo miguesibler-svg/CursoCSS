@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+
+.btn{
+    font-size: 1.5rem;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+
+.btn:active{
+    background-color: indianred;
+    color: aqua;
+}
+
+input:focus{
+    background-color: lightgray;
+    color: white;
+}

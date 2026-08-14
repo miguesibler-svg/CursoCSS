@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+a{
+    font-size: 1.5rem;
+    padding: 7px 15px;
+}
+
+a:link{
+    color: aqua;
+    background-color: black;
+}
+
+a:visited{
+    color: white;
+    background-color: indigo;
+
+}
+
+a:hover{
+    
+}
+
+a:active{
+
+}

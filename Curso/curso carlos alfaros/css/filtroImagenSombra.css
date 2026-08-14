@@ -1,0 +1,6 @@
+#vegeta{
+    width: 350px;
+    margin: 70px auto;
+    display: block;
+    filter: drop-shadow(5px 10px 7px blueviolet)
+}
